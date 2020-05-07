@@ -112,6 +112,7 @@ Make an authenticated `PUT` request to the site detail endpoint. As with a creat
 $ curl -X PUT -H "Authorization: Token d2f763479f703d80de0ec15254237bc651f9cdc0" -H "Content-Type: application/json" -H "Accept: application/json; indent=4" http://localhost:8000/api/dcim/sites/16/ --data '{"name": "Renamed Site", "slug": "renamed-site"}'
 ```
 
+OK
 ## Modify an object by changing a field
 
 Make an authenticated `PATCH` request to the device endpoint. With `PATCH`, unlike `POST` and `PUT`, we only specify the field that is being changed. In this example, we add a serial number to a device.
